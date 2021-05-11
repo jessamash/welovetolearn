@@ -4,6 +4,25 @@ body{
     background-color: grey;
 }
 
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+.nav-area{
+    float: unset;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    text-decoration:none;
+    padding: 5px 20px;
+}
+
 h1{
     background-color: #7e7ee2;
     color: grey;
@@ -12,3 +31,4 @@ h1{
     border-width: 1px;
     text-shadow: 2px 2px black;
 }
+
