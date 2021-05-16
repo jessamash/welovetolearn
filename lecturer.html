@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="main post" style="margin-bottom:20px; padding-bottom:10px;">	
+		<h1>Uploading content & adding students</h1>
+
+		<label for="details">You can share learning material, notes and other content here: </label><br>
+        <textarea name="details" id="details" cols="30" rows="10" placeholder="Share an article ,photo ,video or idea." required></textarea><br>
+	 <!-- image/post -->
+		<div class="post">
+			<img id="load2" class="postimg" src=" "/>
+		</div>
+
+		<div class="postbar">
+			<label for="uploadpic"><h3>To upload images: </h3></label>
+			<input type="file" accept="images/*" id="chooseimg" onchange="loadFile(event)" onmouseover="onbuttoncolor()" onmouseout="outbuttoncolor()"/>
+			<label for="uploadingvid"><h3>To upload videos: </h3></label>
+			<input type="file" id="choosevid" onchange="loadFile(event)" onmouseover="onbuttoncolor()" onmouseout="outbuttoncolor()"/><br><br>
+			<button type="button" id="postmypost" class="postmypost" onclick="mypost();">Post</button>
+		</div>
+	</div>
+
+	<!-- start of right adding student section -->
+	<div class="rightfixed">
+		<div class="add students"><p id="add students"><h3>Add students</h3></p></div>
+
+		<!-- Start of right fixed -->
+		<div class="sidebarright">
+
+			<div class="rightcontent">
+				<p class="name">User Name</p>
+				<button>Add student</button>
+			</div>
+
+			<div class="rightcontent">
+				<p class="name">User Name</p>
+				<button>Add student</button>
+			</div>
+
+			<div class="rightcontent">
+				<p class="name">User Name</p>
+				<button>Add student</button>
+			</div>
+
+			<div class="rightcontent">
+				<p class="name">User Name</p>
+				<button>Add student</button>
+			</div>
+
+			<div class="rightcontent">
+				<p class="name">User Name</p>
+				<button>Add student</button>
+			</div>
+		
+		</div>
+		<!-- End of right fixed -->
+
+	</div>
+	<!-- End of add stu -->
+</body>
+</html>

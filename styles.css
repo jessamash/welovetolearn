@@ -32,3 +32,66 @@ h1{
     text-shadow: 2px 2px black;
 }
 
+h3{
+    font-family: "Roboto",sans-serif;
+}
+
+.container{
+    background: whitesmoke;
+    width: 540px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10%;
+    box-shadow: 2px 5px 20px;
+}
+
+.leftbox{
+    top: -5%;
+    left: 5%;
+    position: absolute;
+}
+
+.button{
+    font-family:"Roboto",sans-serif ;
+    text-transform:uppercase;
+    background: #7e7ee2;
+    color: whitesmoke;
+    box-shadow: 0px 2px 4px 0px;
+}
+
+
+
+.rightfixed
+{
+	float: right;
+	width: 290px;
+	height: 300px;
+	clear: right;
+}
+
+/*parent of right content*/
+.sidebarright
+{
+	float: right;
+	width: 250px;
+	background-color: #7e7ee2;
+	border: 1px solid #B7B7B7;
+	border-radius: 4px;
+	box-shadow: 2px 6px 6px #999999;
+	padding: 20px;
+}
+
+/*design of username in suggestion*/
+.rightcontent
+{
+	display: block;
+	width: 120px;
+	margin: auto auto;
+	margin-left: 15px;
+	margin-top: 12px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+}
+
